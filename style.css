@@ -1,0 +1,55 @@
+body {
+    background-color: rgba(20, 151, 190, 0.418);
+    font-style: normal 20pt arial;
+}
+
+header{
+    color: rgb(255, 83, 36);
+    text-align: center;
+    
+}
+
+#button1 {
+    align-items: center;
+}
+button {
+    align-items: center;
+}
+
+.flex-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.child-div {
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid black;
+    width: 400px;
+    height: 400px;
+}
+
+.product-name {
+    font-style: normal 15pt arial;
+    text-align: center;
+}
+
+.description {
+    font-style: normal 10pt arial;
+    text-align: center;
+}
+
+.price {
+    font-style:  oblique 12pt arial;
+    text-align: center;
+}
+
+
+.buy-ebook {
+    padding: 10px;
+    cursor: pointer;
+    font-style: normal 20pt arial;
+}
